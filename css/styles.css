@@ -38,10 +38,11 @@
     gap: 20px;
 }
 .main{
-    width: 100vh;
+    width: 100vw;
     height: 100vh;
     background-color: var(--color-fondo);
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 .img{
@@ -54,7 +55,19 @@
     font-family: var(--texto-rubik);
     font-size: 30px;
     color: var(--color-texto-principal);
-    text-align: center;
     width: 10ch;
+    text-align: center;
+    font-weight: 700;
+}
+@media screen and (min-width: 768px){
+   .header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+   } 
+   .barra-navegacion{
+    padding-top: 30px;
+   }
 
 }
