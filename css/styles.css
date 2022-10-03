@@ -1,0 +1,60 @@
+:root{
+    --texto-rubik:'Rubik', sans-serif;
+}
+:root{
+    --color-menu: #4a4a4a;
+}
+:root{
+    --color-fondo: #3CDBC0;
+}
+:root{
+    --color-texto-principal: #FFFFFF;
+}
+.header{
+    font-family: var(--texto-rubik);
+    color: var(--color-menu);
+    position: fixed;
+    z-index: 100;
+    top:0;
+    left:0;
+    justify-content: center;
+    background-color: #FFFFFF;
+    width: 100%;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.barra-navegacion{
+   font-family: var(--texto-rubik);
+    display: flex;
+    font-size: 16px;
+    margin-bottom: 13px;
+    justify-content: center;
+}
+.lista{
+    display: flex;
+    gap: 20px;
+}
+.main{
+    width: 100vh;
+    height: 100vh;
+    background-color: var(--color-fondo);
+    display: flex;
+    align-items: center;
+}
+.img{
+    width: 155px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   
+}
+.h1{
+    font-family: var(--texto-rubik);
+    font-size: 30px;
+    color: var(--color-texto-principal);
+    text-align: center;
+    width: 10ch;
+
+}
