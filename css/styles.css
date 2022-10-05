@@ -1,14 +1,12 @@
 :root{
     --texto-rubik:'Rubik', sans-serif;
-}
-:root{
     --color-menu: #4a4a4a;
-}
-:root{
     --color-fondo: #3CDBC0;
-}
-:root{
     --color-texto-principal: #FFFFFF;
+}
+
+.body{
+font-family: var(--texto-rubik);
 }
 .header{
     font-family: var(--texto-rubik);
@@ -27,7 +25,6 @@
     align-items: center;
 }
 .barra-navegacion{
-   font-family: var(--texto-rubik);
     display: flex;
     font-size: 16px;
     margin-bottom: 13px;
@@ -36,6 +33,7 @@
 .lista{
     display: flex;
     gap: 20px;
+    text-transform: uppercase;
 }
 .main{
     width: 100vw;
@@ -52,12 +50,15 @@
    
 }
 .h1{
-    font-family: var(--texto-rubik);
     font-size: 30px;
     color: var(--color-texto-principal);
     width: 10ch;
     text-align: center;
     font-weight: 700;
+    text-transform: capitalize;
+}
+.Link {
+    padding: 10px;
 }
 @media screen and (min-width: 768px){
    .header{
@@ -77,4 +78,3 @@
 .h1{
     font-size: 40px;
     }
-}
